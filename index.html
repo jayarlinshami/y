@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+<head>
+<title>music layout</title>
+<style>
+body{
+background-color:rgb(62,1,1);
+}
+header{
+padding:10px;
+}
+header span{
+color:yellow;
+font-size:30px;
+font-weight:bold;
+font-family:Arial;
+padding:10px;
+}
+.search{
+color:white;
+font-size:medium;
+float:right;
+padding:10px;
+}
+.intro-p{
+text-align:justify;
+color:white;
+text-indent:30px;
+}
+.intro{
+width:80%;
+text-align:center;
+justify-content:center;
+color:yellow;
+}
+.intro-image{
+padding:0px 40px;
+}
+ul{
+display:flex;
+justify-content:center;
+}
+li{
+list-style:none;
+width:150px;
+}
+nav{
+background-color:rgb(117,85,45);
+padding:10px;
+margin:10px 0px 20px;
+}
+nav a{
+color:white;
+text-decoration:none;
+}
+nav a:hover{
+color:yellow;
+}
+ul li{
+border:1px solid white;
+text-align:center;
+padding:10px;
+font-size:larger;
+border-bottom:0;
+border-top:0;
+}
+aside{
+width:25%;
+height:1000px;
+}
+.h2{
+text-align:center;
+background-color:rgb(221,201,201);
+padding:10px;
+color:maroon;
+}
+.login{
+text-align:end;
+padding:10px;
+color:white;
+font-size:larger;
+}
+aside section{
+color:white;
+margin-left:25px;
+}
+hr{
+border:3px solid rgba(116,47,47,0.671);
+background-color:rgba(116,47,47,0.671);
+}
+.viewmore{
+color:white;
+background-color:rgb(117,85,45);
+border:1px solid rgb(177,143,79);
+border-bottom:1px solid;
+}
+.main{
+margin:0px 30px 0px 40px;
+width:75%;
+color:yellow;
+}
+.main h2, .news h2{
+background-color:black;
+padding:10px 25px 8px;
+color:yellow;
+font-size:25px;
+border-bottom:1px solid yellow;
+}
+.albums{
+display:flex;
+padding:20px;
+}
+.albums div{
+padding:0px 60px 0px 20px;
+}
+.news{
+width:50%;
+margin-right:40px;
+}
+.downloads{
+width:50%;
+width-left:40px;
+}
+.news div{
+padding:0px 30px 40px;
+color:white;
+}
+.downloads div{
+background-color:rgb(204,175,122);
+color:black;
+font-size:large;
+}
+.downloads button{
+color:white;
+background-color:rgba(106,90,70,0.826);
+}
+footer{
+text-align:center;
+background-color:rgba(106,90,70,0.826);
+padding:15px;
+font-size:larger;}
+footer a{
+text-decoration:none;
+
+}
+</style>
+</head>
+<body>
+<header>
+<span>Music</span>
+<span style="color:white;padding:0px;">Layout</span>
+<span class="search">
+<label>Search:</label>
+<input type="search">
+<button>Search</button>
+</span>
+</header>
+<div style="display:flex;height:200px;background-color:rgb(177,143,79);">
+<div class="intro-image"><img src="C:\Users\jobin\OneDrive\Pictures/img1.jpg" height="200px"></div>
+<div class="intro">
+<h1>welcome To Music Store</h1>
+<p class="intro-p">Lorem ipsum dolor sit amet,consectetuer adipiscing elit.Nunc quis sem nec tellus blandit tincidunt<br>sed dui malesuada dignissim,Donec mollis 
+aliquet ligula.Lorem ipsum dolor sit amet,consectetuer adipiscing elit.<br>Nunc quis sem nec tellus blandit tincidunt.</p>
+<a href="#">Read more...</a>
+</div>
+<div class="intro-image"><img src="C:\Users\jobin\OneDrive\Desktop\music_webpage\images/image2.jpg" height="200px"></div>
+</div>
+<nav>
+<ul>
+<li style="border-left:0;"><a href=#>Main page</a></li>
+<li><a href=#>Videos</a></li>
+<li><a href=#>Audios</a></li>
+<li><a href=#>Albums</a></li>
+<li><a href=#>Artists</a></li>
+<li style="border-right:0;"><a href=#>Contact</a></li>
+</ul>
+</nav>
+<div style="display:flex;">
+<aside>
+<h2 class="h2">Customer Login</h2>
+<div class="login">
+<label>Email &nbsp;</label>
+<input type="email"><br>
+<label>Password &nbsp</label>
+<input type="password"><br>
+<button>Login</button>
+</div>
+<h2 class="h2">Blog Entries</h2>
+<section>
+<h3 style="color:yellow;">Curabitur quis velit quis tortor</h3>
+<p> Suspendisse vitae neque eget ante <br> tristique vestibulum.Pellentesque vitae <br> magna.<br>Posted by Admin in Videos<br>
+14 December 2020</p>
+
+<hr>
+
+<h3 style="color:yellow;">Duis vitae velit sed dui</h3>
+<p> Pellentesque vitae magna.Suspendisse<br> vitae neque eget ante tristique vestibulum <br> Posted by Admin in Audios<br>
+20 December 2020</p>
+
+<hr>
+<h3 style="color:yellow;">Donec mollis aliquet ligula</h3>
+<p> Suspendisse vitae neque eget ante <br> tristique vestibulum.<br>Posted by Admin in Samples<br>
+22 December 2020</p>
+
+<hr>
+<img src="C:\Users\jobin\OneDrive\Pictures/img9.jpg" width="150px">
+<img src="C:\Users\jobin\OneDrive\Pictures/img11.jpg" width="150px" height="100px">
+<hr>
+<button class="viewmore">View All</button>
+</section>
+</aside>
+<div class="main"
+<h2>Latest Albums</h2>
+<div class="albums">
+<div>
+<img src="C:\Users\jobin\OneDrive\Pictures/img3.jpg" height="180px">
+<p style="font-size:large;">Album Number 1</p>
+<p style="color:rgb(177,143,79);">Artist Name 1</p>
+<button class="viewmore">More</button>
+</div>
+<div>
+<img src="C:\Users\jobin\OneDrive\Pictures/img4.jpg" height="180px">
+<p style="font-size:large;">Album Number 2</p>
+<p style="color:rgb(177,143,79);">Artist Name 2</p>
+<button class="viewmore">More</button>
+</div>
+
+<div>
+<img src="C:\Users\jobin\OneDrive\Pictures/img5.jpg" height="180px">
+<p style="font-size:large;">Album Number 2</p>
+<p style="color:rgb(177,143,79);">Artist Name 2</p>
+<button class="viewmore">More</button>
+</div>
+</div>
+<div style="display:flex">
+<div class="news">
+<h2>News</h2>
+<div>
+<img src="C:\Users\jobin\OneDrive\Pictures/img13.jpg" height="190px" style="float:left;padding-right:20px;">
+<h3 style="color:yellow;font-size:larger;">News Title 1</h3>
+14 OCT 2020
+<p>Maecenas vulputate,arcu id<br>fermentum eleifend,tortor enim<br>tincidunt mauris,fringilla tincidunt <a href="#">more...</a></p>
+
+</div>
+<div>
+<img src="C:\Users\jobin\OneDrive\Pictures/img13.jpg" height="190px" style=" clear:left;float:left;padding-right:20px;">
+<h3 style="color:yellow;font-size:larger;">News Title 2</h3>
+13 OCT 2020
+<p>Fusce vulputate tellus ac felis<br>Praesent mauris.Quisque<br>gravida faucibus ligula. <a href="#">more...</a></p>
+
+<br><br>
+<button class="viewmore" style="clear:left;float:left;">View All</button>
+</div>
+</div>
+<div class="downloads">
+<div>
+<h2 style="border:solid 2px black;">Top Downloads</h2>
+<div style="padding:10px 30px;">
+<span style="float:left;">Song Title 1 by Artist 1</span>
+<span style="float:right"><button>Download</button></span>
+<br><hr style="border:1px solid rgba(93,2,2,0.615);"><br>
+
+
+<span style="clear:both;float:left;">Song Title 2 by Artist 2</span>
+<span style="float:right"><button>Download</button></span>
+<br><hr style="border:1px solid rgba(93,2,2,0.615);"><br>
+<span style="clear:both;float:left;">Song Title 3 by Artist 3</span>
+<span style="float:right"><button>Download</button></span>
+<br><hr style="border:1px solid rgba(93,2,2,0.615);"><br>
+<span style="clear:both;float:left;">Song Title 4 by Artist 4</span>
+<span style="float:right"><button>Download</button></span>
+<br><hr style="border:1px solid rgba(93,2,2,0.615);"><br>
+<span style="clear:both;float:left;">Song Title 5 by Artist 5</span>
+<span style="float:right"><button>Download</button></span>
+<br><hr style="border:1px solid rgba(93,2,2,0.615);"><br>
+<span style="clear:both;float:left;">Song Title 6 by Artist 6</span>
+<span style="float:right"><button>Download</button></span>
+<br><hr style="border:1px solid rgba(93,2,2,0.615);"><br>
+<span style="clear:both;float:left;">Song Title 7 by Artist 7</span>
+<span style="float:right"><button>Download</button></span>
+<br><hr style="border:1px solid rgba(93,2,2,0.615);"><br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<p> <a href="#">Home|</a>
+<a href="#">Videos|</a>
+<a href="#">Audios|</a>
+<a href="#">Albums|</a>
+<a href="#">Artists|</a>
+<a href="#">Contact|</a>
+</p>
+<p>Copyright September 2022 &copy;<strong>GV Company</strong>|<strong>Designes by G.vignesh</strong></p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
